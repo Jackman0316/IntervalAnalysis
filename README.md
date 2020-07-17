@@ -1,2 +1,2 @@
 # IntervalAnalysis
-Bonus project of program optimization
+Bonus project of Program Optimization
