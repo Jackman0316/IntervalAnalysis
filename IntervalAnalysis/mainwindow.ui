@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1578</width>
+    <height>747</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Interval Analyser</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget_old">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>530</y>
+      <width>471</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>input</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Token</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>line</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_error">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>1011</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Error term</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Caused by</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>line</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>581</width>
+      <height>521</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>10</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Widening</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_interval">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>40</y>
+      <width>921</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Phase:</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Var:</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:0</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:7</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:8</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:9</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:10</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:11</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:12</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PP:13</string>
+     </property>
+    </row>
+   </widget>
+   <widget class="QPushButton" name="pushButton_test">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>10</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>test</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_lexical">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>10</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lexical</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_narrowing">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>10</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Narrowing</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_plain">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>10</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Plain</string>
+    </property>
+   </widget>
+   <zorder>pushButton_test</zorder>
+   <zorder>tableWidget_old</zorder>
+   <zorder>tableWidget_error</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>tableWidget_interval</zorder>
+   <zorder>pushButton_lexical</zorder>
+   <zorder>pushButton_narrowing</zorder>
+   <zorder>pushButton_plain</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1578</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
